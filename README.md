@@ -1,71 +1,48 @@
-# zenbrew README
+![ZenBrew](icon.png)
+# ZenBrew
+[![Zenbrew on Marketplace](https://img.shields.io/badge/Downloads-VSCode_Marketplace-blue)] 
 
-This is the README for your extension "zenbrew". After writing up a brief description, we recommend including the following sections.
+AI for Code Completion
 
 ## Features
+* 🚀 As good as Copilot.
+* 🔐 Start, pause, stop. Zenbrew clears session per use.
+* 🔬 Works with natural language or any coding one.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Zenbrew provides Code Search (from Github Gist, StackOverflow), and AI Code Generation. With multiple options can be enabled at the same time.
 
-For example if there is an image subfolder under your extension project workspace:
+To generate/search code, use `// find {what you need}.`. For example:
 
-\!\[feature X\]\(images/feature-x.png\)
+```js
+// find binary search in JavaScript.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+// generate binary search function in Python.
+```
+
+Note:
+- Make sure there is a dot at the end of `{what you need}` search phrase
+- You can use either `// find` or `// generate` to trigger Zenbrew code completion. Both are the same.
+
+![Demo Video](./demo.gif)
+
+![ZenBrew](icon.png)
+
+## Local Installation
+
+Install [Ollama](https://ollama.ai) on local machine and then launch the extension in VSCode, everything should work as it is.
+
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+The smallest model takes upto 5gb of RAM. Minimum 8gb is recommended.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+Initial release of ZenBrew
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
 ## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
+ Create an issue if there's anything that you'd like to know
 **Enjoy!**

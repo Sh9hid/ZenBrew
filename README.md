@@ -1,6 +1,8 @@
-![ZenBrew](icon.png)
 # ZenBrew
-[![Zenbrew on Marketplace](https://img.shields.io/badge/Downloads-VSCode_Marketplace-blue)] 
+![ZenBrew](icon.png)
+
+### Coming soon on the marketplace
+### [![Zenbrew on Marketplace](https://img.shields.io/badge/Downloads-VSCode_Marketplace-blue)] 
 
 AI for Code Completion
 
@@ -18,14 +20,11 @@ To generate/search code, use `// find {what you need}.`. For example:
 
 // generate binary search function in Python.
 ```
-
-Note:
+# Usage:
 - Make sure there is a dot at the end of `{what you need}` search phrase
-- You can use either `// find` or `// generate` to trigger Zenbrew code completion. Both are the same.
-
+- You can use either `// find` or `// generate` to trigger Zenbrew code completion. Both are the same. 
 ![Demo Video](./demo.gif)
 
-![ZenBrew](icon.png)
 
 ## Local Installation
 
@@ -44,5 +43,4 @@ Initial release of ZenBrew
 
 
 ## For more information
- Create an issue if there's anything that you'd like to know
-**Enjoy!**
+ Create an issue if there's any problem in the installation. 

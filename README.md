@@ -1,8 +1,8 @@
 # ZenBrew
 ![ZenBrew](icon.png)
 
-### Coming soon on the marketplace
-### [![Zenbrew on Marketplace](https://img.shields.io/badge/Downloads-VSCode_Marketplace-blue)] 
+#### Coming soon to the marketplace
+### ![Zenbrew on Marketplace](https://img.shields.io/badge/Downloads-VSCode_Marketplace-blue)
 
 AI for Code Completion
 

@@ -7,8 +7,8 @@
 AI for Code Completion
 
 ## Features
-* 🚀 As good as Copilot.
-* 🔐 Start, pause, stop. Zenbrew clears session per use.
+* 🚀 As good as VSCode Copilot.
+* 🔐 Zenbrew clears session per use.
 * 🔬 Works with natural language or any coding one.
 
 Zenbrew provides Code Search (from Github Gist, StackOverflow), and AI Code Generation. With multiple options can be enabled at the same time.
@@ -33,7 +33,7 @@ Install [Ollama](https://ollama.ai) on local machine and then launch the extensi
 
 ## Requirements
 
-The smallest model takes upto 5gb of RAM. Minimum 8gb is recommended.
+The smallest model takes upto 5gb. Minimum 8gb is recommended.
 
 ## Release Notes
 
